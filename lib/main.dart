@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'home.dart';
+import 'form.dart';
 
 void main() {
   runApp(MaterialApp(
     title: "Masks and Validations",
-    home: Home(),
+    home: FormPage(),
     debugShowCheckedModeBanner: false,
   ));
 }
